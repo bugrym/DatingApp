@@ -11,6 +11,9 @@
 		444DAC4F2BA0E8560046AC32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DAC4E2BA0E8560046AC32 /* ContentView.swift */; };
 		444DAC512BA0E8650046AC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444DAC502BA0E8650046AC32 /* Assets.xcassets */; };
 		444DAC542BA0E8650046AC32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444DAC532BA0E8650046AC32 /* Preview Assets.xcassets */; };
+		444DAC872BA1002B0046AC32 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DAC862BA1002B0046AC32 /* MainTabView.swift */; };
+		444DAC8A2BA103340046AC32 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DAC892BA103340046AC32 /* CardView.swift */; };
+		444DAC8C2BA10B1D0046AC32 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DAC8B2BA10B1D0046AC32 /* UserInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		444DAC4E2BA0E8560046AC32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		444DAC502BA0E8650046AC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		444DAC532BA0E8650046AC32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		444DAC862BA1002B0046AC32 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		444DAC892BA103340046AC32 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		444DAC8B2BA10B1D0046AC32 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +57,11 @@
 		444DAC4B2BA0E8560046AC32 /* DatingApp */ = {
 			isa = PBXGroup;
 			children = (
-				444DAC4C2BA0E8560046AC32 /* DatingAppApp.swift */,
+				444DAC802BA0FF6B0046AC32 /* App */,
+				444DAC7F2BA0FF690046AC32 /* Core */,
+				444DAC7E2BA0FF680046AC32 /* Extensions */,
+				444DAC7D2BA0FF670046AC32 /* Shared */,
+				444DAC7C2BA0FF640046AC32 /* Utils */,
 				444DAC4E2BA0E8560046AC32 /* ContentView.swift */,
 				444DAC502BA0E8650046AC32 /* Assets.xcassets */,
 				444DAC522BA0E8650046AC32 /* Preview Content */,
@@ -65,6 +75,93 @@
 				444DAC532BA0E8650046AC32 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		444DAC7C2BA0FF640046AC32 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		444DAC7D2BA0FF670046AC32 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		444DAC7E2BA0FF680046AC32 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		444DAC7F2BA0FF690046AC32 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				444DAC822BA0FFE00046AC32 /* Cards */,
+				444DAC852BA0FFEF0046AC32 /* Messaging */,
+				444DAC832BA0FFE50046AC32 /* Profile */,
+				444DAC842BA0FFE90046AC32 /* Search */,
+				444DAC812BA0FFD90046AC32 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		444DAC802BA0FF6B0046AC32 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				444DAC4C2BA0E8560046AC32 /* DatingAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		444DAC812BA0FFD90046AC32 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				444DAC862BA1002B0046AC32 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		444DAC822BA0FFE00046AC32 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				444DAC882BA1032E0046AC32 /* View */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		444DAC832BA0FFE50046AC32 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		444DAC842BA0FFE90046AC32 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		444DAC852BA0FFEF0046AC32 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messaging;
+			sourceTree = "<group>";
+		};
+		444DAC882BA1032E0046AC32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				444DAC892BA103340046AC32 /* CardView.swift */,
+				444DAC8B2BA10B1D0046AC32 /* UserInfoView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444DAC872BA1002B0046AC32 /* MainTabView.swift in Sources */,
 				444DAC4F2BA0E8560046AC32 /* ContentView.swift in Sources */,
+				444DAC8A2BA103340046AC32 /* CardView.swift in Sources */,
 				444DAC4D2BA0E8560046AC32 /* DatingAppApp.swift in Sources */,
+				444DAC8C2BA10B1D0046AC32 /* UserInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
