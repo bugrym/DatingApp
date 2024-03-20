@@ -14,6 +14,9 @@
 		444DAC872BA1002B0046AC32 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DAC862BA1002B0046AC32 /* MainTabView.swift */; };
 		444DAC8A2BA103340046AC32 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DAC892BA103340046AC32 /* CardView.swift */; };
 		444DAC8C2BA10B1D0046AC32 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DAC8B2BA10B1D0046AC32 /* UserInfoView.swift */; };
+		444DACB92BAA42DA0046AC32 /* SwipeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DACB82BAA42DA0046AC32 /* SwipeIndicatorView.swift */; };
+		444DACBC2BAB4DDE0046AC32 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DACBB2BAB4DDE0046AC32 /* SizeConstants.swift */; };
+		444DACBE2BAB7AC40046AC32 /* ActionButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DACBD2BAB7AC40046AC32 /* ActionButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		444DAC862BA1002B0046AC32 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		444DAC892BA103340046AC32 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		444DAC8B2BA10B1D0046AC32 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		444DACB82BAA42DA0046AC32 /* SwipeIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeIndicatorView.swift; sourceTree = "<group>"; };
+		444DACBB2BAB4DDE0046AC32 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
+		444DACBD2BAB7AC40046AC32 /* ActionButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 		444DAC7C2BA0FF640046AC32 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				444DACBA2BAB4DCF0046AC32 /* Constants */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -160,8 +167,18 @@
 			children = (
 				444DAC892BA103340046AC32 /* CardView.swift */,
 				444DAC8B2BA10B1D0046AC32 /* UserInfoView.swift */,
+				444DACB82BAA42DA0046AC32 /* SwipeIndicatorView.swift */,
+				444DACBD2BAB7AC40046AC32 /* ActionButtonsView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		444DACBA2BAB4DCF0046AC32 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				444DACBB2BAB4DDE0046AC32 /* SizeConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +252,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				444DAC872BA1002B0046AC32 /* MainTabView.swift in Sources */,
+				444DACB92BAA42DA0046AC32 /* SwipeIndicatorView.swift in Sources */,
+				444DACBE2BAB7AC40046AC32 /* ActionButtonsView.swift in Sources */,
 				444DAC4F2BA0E8560046AC32 /* ContentView.swift in Sources */,
 				444DAC8A2BA103340046AC32 /* CardView.swift in Sources */,
+				444DACBC2BAB4DDE0046AC32 /* SizeConstants.swift in Sources */,
 				444DAC4D2BA0E8560046AC32 /* DatingAppApp.swift in Sources */,
 				444DAC8C2BA10B1D0046AC32 /* UserInfoView.swift in Sources */,
 			);
