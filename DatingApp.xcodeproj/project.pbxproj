@@ -19,6 +19,8 @@
 		444DACBE2BAB7AC40046AC32 /* ActionButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DACBD2BAB7AC40046AC32 /* ActionButtonsView.swift */; };
 		44B5A76D2BAC9BA3004EB33B /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B5A76C2BAC9BA3004EB33B /* ImageScrollingOverlay.swift */; };
 		44B5A7702BB099F6004EB33B /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 44B5A76F2BB099F6004EB33B /* ComposableArchitecture */; };
+		44B5A7722BB304F5004EB33B /* CardImageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B5A7712BB304F5004EB33B /* CardImageIndicatorView.swift */; };
+		44B5A7742BB8ACD7004EB33B /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B5A7732BB8ACD7004EB33B /* RadarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		444DACBB2BAB4DDE0046AC32 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 		444DACBD2BAB7AC40046AC32 /* ActionButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonsView.swift; sourceTree = "<group>"; };
 		44B5A76C2BAC9BA3004EB33B /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
+		44B5A7712BB304F5004EB33B /* CardImageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageIndicatorView.swift; sourceTree = "<group>"; };
+		44B5A7732BB8ACD7004EB33B /* RadarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,8 @@
 				444DACB82BAA42DA0046AC32 /* SwipeIndicatorView.swift */,
 				444DACBD2BAB7AC40046AC32 /* ActionButtonsView.swift */,
 				44B5A76C2BAC9BA3004EB33B /* ImageScrollingOverlay.swift */,
+				44B5A7712BB304F5004EB33B /* CardImageIndicatorView.swift */,
+				44B5A7732BB8ACD7004EB33B /* RadarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -262,10 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B5A7742BB8ACD7004EB33B /* RadarView.swift in Sources */,
 				444DAC872BA1002B0046AC32 /* MainTabView.swift in Sources */,
 				444DACB92BAA42DA0046AC32 /* SwipeIndicatorView.swift in Sources */,
 				444DACBE2BAB7AC40046AC32 /* ActionButtonsView.swift in Sources */,
 				44B5A76D2BAC9BA3004EB33B /* ImageScrollingOverlay.swift in Sources */,
+				44B5A7722BB304F5004EB33B /* CardImageIndicatorView.swift in Sources */,
 				444DAC4F2BA0E8560046AC32 /* ContentView.swift in Sources */,
 				444DAC8A2BA103340046AC32 /* CardView.swift in Sources */,
 				444DACBC2BAB4DDE0046AC32 /* SizeConstants.swift in Sources */,

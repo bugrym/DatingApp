@@ -24,14 +24,14 @@ struct ImageScrollingOverlay: View {
                     updateImageIndex(increment: true)
                 }
         }
-        .foregroundStyle(.clear)
+        .foregroundStyle(.white.opacity(0.01))
     }
 }
 
 private extension ImageScrollingOverlay {
     func updateImageIndex(increment: Bool) {
         if increment {
-            guard currentImageIndex < imageCount + 1 else {
+            guard currentImageIndex < imageCount - 1 else {
                 return
             }
             currentImageIndex += 1
