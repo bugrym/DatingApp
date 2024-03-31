@@ -60,9 +60,32 @@ private extension CardView {
         let width = value.translation.width
         
         if abs(width) <= abs(SizeConstants.screenCutoff) {
-            xOffset = 0
-            degrees = 0
+            returnToCenter()
+            return
         }
+        
+        if width >= SizeConstants.screenCutoff {
+            swipeRight()
+        } else {
+            swipeLeft()
+        }
+    }
+}
+
+private extension CardView {
+    private func returnToCenter() {
+        xOffset = 0
+        degrees = 0
+    }
+    
+    private func swipeRight() {
+        xOffset = 500
+        degrees = 12
+    }
+    
+    private func swipeLeft() {
+        xOffset = -500
+        degrees = -12
     }
 }
 
